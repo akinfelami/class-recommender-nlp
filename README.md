@@ -2,7 +2,7 @@
 
 #### An NLP based model that recommends courses from Cornell University, Ithaca NY.
 
-The model is trained on a word2Vec model using course descriptions scraped from [here](https://classes.cornell.edu/).
+The model predicts other courses a user might like based on a course title or keywords. it is trained on a word2Vec model using course descriptions scraped from [here](https://classes.cornell.edu/).
 
 #### Features
 
