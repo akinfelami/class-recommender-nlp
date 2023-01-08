@@ -13,8 +13,8 @@ The model is trained on a word2Vec model using course descriptions scraped from 
 
 #### Things to Note
 
-- dataset is available in `catalog.pkl`, while `model.txt` is the trained model
-- to load dataset. I have added `model.txt` to gitignore because it is too large (about 7GB)
+- dataset is available in `catalog.pkl`, while `model.txt` is the trained model, I have added `model.txt` to gitignore because it is too large (about 7GB)
+- to load dataset:
 
   ```
   import pickle
