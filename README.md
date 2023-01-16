@@ -6,14 +6,13 @@ The model predicts other courses a user might like based on a course title or ke
 
 #### Features
 
-- improved using google's pretrained model that includes word vectors for a vocabulary
-  of 3 million words and phrases that they trained on roughly 100 billion words from a Google News dataset.
+- improved using  a slim version of google's pretrained word2vec model 
 - recommend courses based on course title
 - recommend courses based on keywords
 
 #### Things to Note
 
-- dataset is available in `catalog.pkl`, while `model.txt` is the trained model, I have added `model.txt` to gitignore because it is too large (about 7GB)
+- dataset is available in `catalog.pkl`, while `model.pkl` is the trained model. `vectors.pkl` is the sentence vectors determined by taking the average of the vectors of words in a sentence but weighted using their tf idf vectors
 - to load dataset:
 
   ```
