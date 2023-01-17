@@ -2,3 +2,4 @@ GoogleNews-vectors-negative300-SLIM.bin.gz
 model.pkl
 vectors.pkl
 .ipynb_checkpoints
+.DS_Store
