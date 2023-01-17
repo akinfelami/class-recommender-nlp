@@ -12,7 +12,7 @@ The model predicts other courses a user might like based on a course title or ke
 
 #### Things to Note
 
-- dataset is available in `catalog.pkl`, while `model.pkl` is the trained model. `vectors.pkl` is the sentence vectors determined by taking the average of the vectors of words in a sentence but weighted using their tf idf vectors
+- dataset is available in `catalog.pkl`, while `model.pkl` is the trained model. `vectors.pkl` is the sentence vectors determined by taking the average of the vectors of words in a sentence but weighted using their tf idf vectors. I have added the files to gitignore because they are too large.
 - to load dataset:
 
   ```

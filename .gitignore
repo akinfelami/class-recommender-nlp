@@ -1,2 +1,4 @@
-GoogleNews-vectors-negative300.bin.gz
-model.txt
+GoogleNews-vectors-negative300-SLIM.bin.gz
+model.pkl
+vectors.pkl
+.ipynb_checkpoints
